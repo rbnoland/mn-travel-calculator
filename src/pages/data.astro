@@ -7,6 +7,9 @@ import Section from "../components/Section.astro";
   table {
     border: 1px solid black;
   }
+  .indent {
+  margin-left: 40px; /* Adjust the value to control the indentation */
+  }
   table caption {
     font-weight: bold;
     margin-bottom: 0.75em;
@@ -25,20 +28,18 @@ import Section from "../components/Section.astro";
   <Section>
     <h2>Data</h2>
     <p>
-      The calculator relies on data collected by the Pennsylvania Department of
-      Transportation (PennDOT) and publicly available at:
+      The calculator relies on data collected by the Minnesota Department of
+      Transportation and publicly available at:
       <a
         target="_blank"
-        href="https://www.penndot.pa.gov/ProjectAndPrograms/Planning/TrafficInformation/Pages/default.aspx"
-        >https://www.penndot.pa.gov/ProjectAndPrograms/Planning/TrafficInformation/Pages/default.aspx</a
-      >. We use the files listed under “Highway Statistics” for each year in the calculator. These data are
-      in pdf files and were transferred to an Excel file for further
-      processing.
+        href="http://www.dot.state.mn.us/roadway/data/index.html"
+        >http://www.dot.state.mn.us/roadway/data/index.html</a
+      >. 
     </p>
     <p>
       The data provide estimates of road mileage and annual VMT by county for seven
-      functional classifications of roads; there is no distinction made between urban and rural roads in the data. Functional classifications define the type of
-      service provided by a road, for example a freeway, turnpike, or
+      functional classifications of roads. Functional classifications define the type of
+      service provided by a road, for example an interstate, freeway, or
       expressway allows for higher speeds and will accommodate more vehicles
       per hour compared to an arterial road, which will have traffic signals
       and lower speeds. At the far extreme are local roads with low speed
@@ -46,48 +47,39 @@ import Section from "../components/Section.astro";
       commercial areas.
     </p>
     <p>
-      We combined some of the road classifications to minimize those
-      instances in which there were zero road miles. A shortcoming of New
-      Pennsylvania's is that we do not have lane mileage data, only road
-      mileage (center-line miles). To approximate lane-miles we used FHWA Highway 
-      Statistic from 2018 to calculate the ratio of lane-miles to road-miles for each functional classification (ratios were basically unchanged from year to year).
-      This provided us with a conversion factor approximate the lane miles for each functional class. These are shown
-      in the table below and represent average state-level one-directional measures
-      of the number of lanes for each functional classification.
+      The data available for road center-line miles is broken down by urban and rural areas, however, there is no corresponding breakdown for vehicle-miles of travel (VMT).
+      Therefore, urban and rural data were combined by road category.  Lane mileage data is available, but
+      is not linked to VMT. To estimate lane-mileage the ratio of lane-miles to center-line miles for each road category is calculated for 
+      each metro area (using 2023 data). This provided us with a conversion factor to approximate the lane miles for each functional class. These are shown
+      in the table below and represent averages by metro area.
     </p>
     <p>
-      Road classifications available in the data are listed in the table and
-      those that were combined are shown. We combined interstates with freeways/expressways into one category. Major and minor collectors were combined into one category as well.
-      There are 67 counties in Pennsylvania and we combined these based on metropolitan statistical areas (MSAs).  Some counties are not included as they are not part of an MSA. 
-      For the Philadelphia metroplitan area we only include the five Pennsylvania counties (Philadelphia, Montgomery, Chester, Delaware, and Bucks) omitting that part of the MSA in New Jersey.
-      The combinations are as follows:
-      </p>
-      <p><strong>Allentown-Bethlehem-East Stroudsburg:</strong> Carbon, Lehigh, Monroe, Northampton</p>
-      <p><strong>Altoona-Hungtingdon:</strong> Blair, Altoona-Hungtingdon</p>
-      <p><strong>Bloomsburg-Berwick-Sunbury:</strong> Columbia, Montour, Northumberland, Snyder, Union</p>
-      <p><strong>Erie-Meadville:</strong> Crawford, Erie</p>
-      <p><strong>Harrisburg-York-Lebanon:</strong> Cumberland, Dauphin, Lebanon, Perry, York</p>
-      <p><strong>Johnston-Somerset:</strong> Cambria, Somerset</p>
-      <p><strong>Lancaster: </strong>Lancaster</p>
-      <p><strong>Philadelphia:</strong> Bucks, Chester, Delaware, Montgomery, Philadelphia</p>
-      <p><strong>Pittsburgh:</strong> Allegheny, Armstrong, Beaver, Butler, Fayette, Indiana, Lawrence, Washington, Westmoreland</p>
-      <p><strong>Reading:</strong> Berks</p>
-      <p><strong>Scranton-Wilkes-Barre:</strong> Lackawanna, Luzerne, Wyoming</p>
-      <p><strong>State College-Dubois:</strong> Centre, Clearfield</p>
-      <p><strong>Williamsport-Lock Haven: </strong>Clinton</p>
+      Road classifications available in the data are listed in the table. There are 87 counties in Minnesota and we combined these based on 
+      metropolitan statistical areas (MSAs).  Some MSAs include counties in Wisconsin and North Dakota; these were not included in the MSA totals.
+      Most counties are not included as they are not part of an MSA.  Fargo, Grand Forks, and LaCrosse-Onalaska MSAs are not included as they contain only
+      one county in Minnesota.
+      
+      The combinations included are as follows:
+      <div class="indent">
+      
+      <p><strong>Duluth:</strong> Carlton, St. Louis, Douglas</p>
+      <p><strong>Mankato-North Mankato:</strong> Blue Earth, Nicollet</p>
+      <p><strong>Minneapolis-St. Paul-Bloomington:</strong> Anoka, Carver, Chisago, Dakota, Hennepin, Isanti, Le Sueur, Mille Lacs, Ramsey, Scott, Sherburne, Sibley, Washington, Wright</p>
+      <p><strong>Rochester:</strong> Dodge, Fillmore, Olmsted, Wabasha</p>
+      <p><strong>St. Cloud:</strong> Benton, Stearns</p>
+      </div>
 
-
-
-      </p>
+     
       <p>
       Our first year of data is 2018 and we will update to the latest year
       available. Caution should be used when analyzing data and interpreting
       results for 2020 and 2021 due to changes in travel patterns due to the
       COVID pandemic.
       </p>
-      <p>We also include an estimate of CO2 emissions. This is estimated based on the average transportation CO2e emissions per mile for the entire state which is 492.1 grams/mile. 
-        Data on total transportation emissions was from the <a target="_blank" href="https://files.dep.state.pa.us/Energy/Office%20of%20Energy%20and%20Technology/OETDPortalFiles/ClimateChange/FINAL_2023_GHG_Inventory_Report_12.13.23.pdf"
-        >2023 Pennsylvania Greenhouse Gas Inventory Report</a> for petroleum (Table 2 in report). This was divided by total VMT in 2022.</p>
+      <p>We also include an estimate of CO2 emissions. This is estimated based on the average transportation CO2e emissions per mile for the entire state which is 484 grams/mile. 
+        Data on total transportation emissions was from the <a target="_blank" href="https://www.dot.state.mn.us/measures/greenhouse-gas-emissions.html"
+        >Minnesota Department of Transportation, Performance Measure Dasbboard</a> for transportation emissions. We assumed an average of 40 million metric tons CO2 equivalent in total. 
+        This was divided by total VMT in 2023.</p>
       <p>
       Elasticity assumptions in the calculator are shown in the table for
       each road classification. In general, the empirical evidence suggests
@@ -98,74 +90,68 @@ import Section from "../components/Section.astro";
       “back-calculator” which allows the estimation of an “implied
       elasticity” based on forecast growth in VMT associated with a capacity
       expansion. This can be thought of as the elasticity implied by any
-      forecasts of travel done by PennDOT or a local agency promoting the
+      forecasts of travel done by the state or a local agency promoting the
       capacity expansion. The assumption often made, is that there is no
       change in VMT attributable to the expansion, despite the evidence for
       induced travel. The user of the calculator is thus able to assess
       whether estimates made in forecasts are reasonable.
     </p>
-    <table>
-      <caption>Elasticity estimates used in the calculator</caption>
-      <colgroup>
-        <col style="width: 26%" />
-        <col style="width: 34%" />
-        <col style="width: 17%" />
-        <col style="width: 21%" />
-      </colgroup>
-      <thead>
-        <tr class="header">
-          <th><strong>Functional classifications</strong></th>
-          <th><strong>Combined classifications</strong></th>
-          <th><strong>Factor to convert to lane miles</strong></th>
-          <th><strong>Elasticity range</strong></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="odd">
-          <td>Interstates</td>
-          <td rowspan="2">Interstate/Freeways/Expressways</td>
-          <td rowspan="2">4.24</td>
-          <td rowspan="2">0.7 - 1.0</td>
-        </tr>
-        <tr class="even">
-          <td>Freeways/Expressways</td>
-        </tr>
-        <tr class="odd">
-          <td>Principal arterials</td>
-          <td>Principal arterials</td>
-          <td>2.71</td>
-          <td>0.7 - 1.0</td>
-        </tr>
-        <tr class="even">
-          <td>Minor arterials</td>
-          <td>Minor arterials</td>
-          <td>2.52</td>
-          <td>0.5 - 0.7</td>
-        </tr>
-        <tr class="odd">
-          <td>Major collectors</td>
-          <td rowspan="2">Major and Minor collectors</td>
-          <td rowspan="2">2.47</td>
-          <td rowspan="2">0.5 - 0.7</td>
-        </tr>
-        <tr class="even">
-          <td>Minor collectors</td>
-        </tr>
-        <tr class="odd">
-          <td>Local</td>
-          <td>Local</td>
-          <td>2</td>
-          <td>0.3 - 0.5</td>
-        </tr>
-               
-        </tr>
-      </tbody>
-    </table>
+    
 
+<table>
+  <caption>Lane-mile conversions and elasticity estimates used in the calculator</caption>
+  <colgroup>
+    <col style="width: 26%" />
+    <col style="width: 24%" />
+    <col style="width: 14%" />
+  </colgroup>
+  <tr>
+    <th>Functional classifications</th>
+    <th>Factor to convert to lane miles</th>
+    <th>Elasticity range</th>
+  </tr>
+  <tr>
+    <td>Interstates</td>
+    <td>4 - 5.6</td>
+    <td>0.7 - 1.0</td>
+  </tr>
+  <tr>
+    <td>Principal Arterial - Other Freeways and Expressways</td>
+    <td>3.9 - 4.6</td>
+    <td>0.7 - 1.0</td>
+  </tr>
+  <tr>
+    <td>Principal arterials - Other</td>
+    <td>2.3 - 3.4</td>
+    <td>0.7 - 1.0</td>
+  </tr>
+  <tr>
+    <td>Minor arterials</td>
+    <td>2 - 2.6</td>
+    <td>0.5 - 0.7</td>
+  </tr>
+  <tr>
+    <td>Major collectors</td>
+    <td>2 - 2.1</td>
+    <td>0.5 - 0.7</td>
+  </tr>
+  <tr>
+    <td>Minor collectors</td>
+    <td>2</td>
+    <td>0.5 - 0.7</td>
+  </tr>
+  <tr>
+    <td>Local</td>
+    <td>2</td>
+    <td>0.3 - 0.5</td>
+  </tr>
+</table>
+   
+  
     
   </Section>
   <Section>
-    <h2>Calculations</h2>
+  <h2>Calculations</h2>
     <p>
       The elasticities shown above are used to determine how a change in
       lane miles will lead to a change in annual VMT. The formula for estimating
