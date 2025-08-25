@@ -3,51 +3,86 @@ const currentPath = Astro.url.pathname;
 
 const navItems = [
   { name: "Home", path: "/" },
-  { name: "MSA Calculator", path: "/calculator/" },
-  { name: "MSA Back-Calculator", path: "/back-calculator/" },
-
+  {
+    name: "Calculator",
+    dropdown: [
+      { name: "MSA", path: "/calculator/" },
+      { name: "County", path: "/county-calculator/" }
+    ]
+  },
+  {
+    name: "Back-Calculator",
+    dropdown: [
+      { name: "MSA", path: "/back-calculator/" },
+      { name: "County", path: "/county-back-calculator/" }
+    ]
+  },
   { name: "Acknowledgements", path: "/acknowledgements" },
-  { name: "Other Calculators", path: "/other"}
-].map((item) => ({ ...item, currentPage: item.path === currentPath }));
+  { name: "Other Calculators", path: "/other" }
+];
 
 const menuItems = [
   { name: "Theory", path: "/theory/" },
   { name: "Research Evidence", path: "/evidence/" },
   { name: "Data and Calculations", path: "/data/" },
   { name: "Definitions", path: "/definitions/" },
-  { name: "References", path: "/references/" },
-].map((item) => ({ ...item, currentPage: item.path === currentPath }));
+  { name: "References", path: "/references/" }
+];
 ---
 
 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-  {
-    navItems.slice(0, 3).map((item) => (
-      <li class="nav-item">
-        <a
-          class={"nav-link " + (item.currentPage ? "active" : "")}
-          aria-page={item.currentPage ? "page" : "false"}
-          href={item.path}
-        >
-          {item.name}
-        </a>
-      </li>
-    ))
-  }
+  <li class="nav-item">
+    <a class={"nav-link " + (currentPath === "/" ? "active" : "")} href="/">Home</a>
+  </li>
+
+  <!-- Calculator Dropdown -->
   <li class="nav-item dropdown">
-    <a
-      class={"nav-link dropdown-toggle " + (menuItems.some((item) => item.currentPage) ? "active" : "")}
-      href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class={"nav-link dropdown-toggle " + (currentPath.includes("/calculator") ? "active" : "")}
+       href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Calculator
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a class={"dropdown-item " + (currentPath === "/calculator/" ? "active" : "")}
+           href="/calculator/">MSA</a>
+      </li>
+      <li>
+        <a class={"dropdown-item " + (currentPath === "/county-calculator/" ? "active" : "")}
+           href="/county-calculator/">County</a>
+      </li>
+    </ul>
+  </li>
+
+  <!-- Back-Calculator Dropdown -->
+  <li class="nav-item dropdown">
+    <a class={"nav-link dropdown-toggle " + (currentPath.includes("/back-calculator") ? "active" : "")}
+       href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Back-Calculator
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a class={"dropdown-item " + (currentPath === "/county-back-calculator/" ? "active" : "")}
+           href="/county-back-calculator/">MSA</a>
+      </li>
+      <li>
+        <a class={"dropdown-item " + (currentPath === "/county-back-calculator/" ? "active" : "")}
+           href="/county-back-calculator/">County</a>
+      </li>
+    </ul>
+  </li>
+
+  <!-- About Dropdown -->
+  <li class="nav-item dropdown">
+    <a class={"nav-link dropdown-toggle " + (menuItems.some(item => item.path === currentPath) ? "active" : "")}
+       href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       About
     </a>
     <ul class="dropdown-menu">
       {
         menuItems.map((item) => (
           <li>
-            <a
-              class={"dropdown-item " + (item.currentPage ? "active" : "")}
-              aria-page={item.currentPage ? "page" : "false"}
-              href={item.path}
-            >
+            <a class={"dropdown-item " + (item.path === currentPath ? "active" : "")}
+               href={item.path}>
               {item.name}
             </a>
           </li>
@@ -55,14 +90,13 @@ const menuItems = [
       }
     </ul>
   </li>
+
+  <!-- Remaining nav items -->
   {
     navItems.slice(3).map((item) => (
       <li class="nav-item">
-        <a
-          class={"nav-link " + (item.currentPage ? "active" : "")}
-          aria-page={item.currentPage ? "page" : "false"}
-          href={item.path}
-        >
+        <a class={"nav-link " + (item.path === currentPath ? "active" : "")}
+           href={item.path}>
           {item.name}
         </a>
       </li>
