@@ -182,7 +182,7 @@
 
   function loadData() {
     return new Promise<DataEntry[]>((resolve) => {
-      Papa.parse("/data/data.csv", {
+      Papa.parse("/data/county_data.csv", {
         download: true,
         header: true,
         dynamicTyping: true,

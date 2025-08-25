@@ -1,0 +1,321 @@
+year,metro,facilityType,vmt,laneMiles,minElast,maxElast
+2014,Duluth,Interstate,217947559,32,0.7,1
+2014,Duluth,Local,49393563,755,0.3,0.5
+2014,Duluth,Major Collector,88941548,207,0.5,0.7
+2014,Duluth,Minor Arterial,63796020,67,0.5,0.7
+2014,Duluth,Minor Collector,9281106,112,0.5,0.7
+2014,Duluth,Principal Arterial,59576176,35,0.7,1
+2014,Mankato-North Mankato,Freeway/Expressway,94297444,13,0.7,1
+2014,Mankato-North Mankato,Local,127224880,1662,0.3,0.5
+2014,Mankato-North Mankato,Major Collector,126322855,386,0.5,0.7
+2014,Mankato-North Mankato,Minor Arterial,222615435,179,0.5,0.7
+2014,Mankato-North Mankato,Minor Collector,35053734,268,0.5,0.7
+2014,Mankato-North Mankato,Principal Arterial,393963687,117,0.7,1
+2014,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,3274298088,139,0.7,1
+2014,Minneapolis-St. Paul-Bloomington,Interstate,8734512401,289,0.7,1
+2014,Minneapolis-St. Paul-Bloomington,Local,3765729635,17598,0.3,0.5
+2014,Minneapolis-St. Paul-Bloomington,Major Collector,2642882562,2835,0.5,0.7
+2014,Minneapolis-St. Paul-Bloomington,Minor Arterial,8645690895,2954,0.5,0.7
+2014,Minneapolis-St. Paul-Bloomington,Minor Collector,237385177,1004,0.5,0.7
+2014,Minneapolis-St. Paul-Bloomington,Principal Arterial,4274530365,553,0.7,1
+2014,Rochester,Freeway/Expressway,193916481,11,0.7,1
+2014,Rochester,Interstate,112402626,27,0.7,1
+2014,Rochester,Local,276956207,3591,0.3,0.5
+2014,Rochester,Major Collector,278844563,715,0.5,0.7
+2014,Rochester,Minor Arterial,449391263,429,0.5,0.7
+2014,Rochester,Minor Collector,58807326,403,0.5,0.7
+2014,Rochester,Principal Arterial,726551798,178,0.7,1
+2014,St. Cloud,Interstate,634518059,58,0.7,1
+2014,St. Cloud,Local,243934437,2842,0.3,0.5
+2014,St. Cloud,Major Collector,298026957,549,0.5,0.7
+2014,St. Cloud,Minor Arterial,375863508,202,0.5,0.7
+2014,St. Cloud,Minor Collector,79637387,368,0.5,0.7
+2014,St. Cloud,Principal Arterial,698670686,166,0.7,1
+2016,Duluth,Interstate,232206467,127,0.7,1
+2016,Duluth,Local,41562760,1456,0.3,0.5
+2016,Duluth,Major Collector,87418931,417,0.5,0.7
+2016,Duluth,Minor Arterial,58547737,129,0.5,0.7
+2016,Duluth,Minor Collector,18748050,249,0.5,0.7
+2016,Duluth,Principal Arterial,61975817,82,0.7,1
+2016,Mankato-North Mankato,Freeway/Expressway,88528142,42,0.7,1
+2016,Mankato-North Mankato,Local,108117526,3262,0.3,0.5
+2016,Mankato-North Mankato,Major Collector,156781123,830,0.5,0.7
+2016,Mankato-North Mankato,Minor Arterial,242535543,368,0.5,0.7
+2016,Mankato-North Mankato,Minor Collector,55946610,603,0.5,0.7
+2016,Mankato-North Mankato,Principal Arterial,362822839,320,0.7,1
+2016,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,3933762954,746,0.7,1
+2016,Minneapolis-St. Paul-Bloomington,Interstate,8986661361,1542,0.7,1
+2016,Minneapolis-St. Paul-Bloomington,Local,3965572348,34983,0.3,0.5
+2016,Minneapolis-St. Paul-Bloomington,Major Collector,2527107079,5448,0.5,0.7
+2016,Minneapolis-St. Paul-Bloomington,Minor Arterial,8894521166,7519,0.5,0.7
+2016,Minneapolis-St. Paul-Bloomington,Minor Collector,358061923,2501,0.5,0.7
+2016,Minneapolis-St. Paul-Bloomington,Principal Arterial,4004942413,1761,0.7,1
+2016,Rochester,Freeway/Expressway,328866871,110,0.7,1
+2016,Rochester,Interstate,108997674,109,0.7,1
+2016,Rochester,Local,283144560,7111,0.3,0.5
+2016,Rochester,Major Collector,353780454,1513,0.5,0.7
+2016,Rochester,Minor Arterial,567728414,872,0.5,0.7
+2016,Rochester,Minor Collector,95664431,906,0.5,0.7
+2016,Rochester,Principal Arterial,424759906,365,0.7,1
+2016,St. Cloud,Interstate,622184888,231,0.7,1
+2016,St. Cloud,Local,266234281,5640,0.3,0.5
+2016,St. Cloud,Major Collector,309299936,1107,0.5,0.7
+2016,St. Cloud,Minor Arterial,374207827,447,0.5,0.7
+2016,St. Cloud,Minor Collector,89964087,780,0.5,0.7
+2016,St. Cloud,Principal Arterial,695367317,503,0.7,1
+2017,Duluth,Interstate,232735632,127,0.7,1
+2017,Duluth,Local,41609049,1468,0.3,0.5
+2017,Duluth,Major Collector,89211410,417,0.5,0.7
+2017,Duluth,Minor Arterial,58714753,129,0.5,0.7
+2017,Duluth,Minor Collector,18810012,249,0.5,0.7
+2017,Duluth,Principal Arterial,62116700,81,0.7,1
+2017,Mankato-North Mankato,Freeway/Expressway,92353019,42,0.7,1
+2017,Mankato-North Mankato,Local,107566037,3271,0.3,0.5
+2017,Mankato-North Mankato,Major Collector,153795482,815,0.5,0.7
+2017,Mankato-North Mankato,Minor Arterial,245479279,369,0.5,0.7
+2017,Mankato-North Mankato,Minor Collector,63296065,615,0.5,0.7
+2017,Mankato-North Mankato,Principal Arterial,387295767,338,0.7,1
+2017,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,4034663292,734,0.7,1
+2017,Minneapolis-St. Paul-Bloomington,Interstate,9128264586,1575,0.7,1
+2017,Minneapolis-St. Paul-Bloomington,Local,4033398981,35120,0.3,0.5
+2017,Minneapolis-St. Paul-Bloomington,Major Collector,2570828704,5442,0.5,0.7
+2017,Minneapolis-St. Paul-Bloomington,Minor Arterial,9102196926,7551,0.5,0.7
+2017,Minneapolis-St. Paul-Bloomington,Minor Collector,365610515,2505,0.5,0.7
+2017,Minneapolis-St. Paul-Bloomington,Principal Arterial,4060663791,1754,0.7,1
+2017,Rochester,Freeway/Expressway,343122664,111,0.7,1
+2017,Rochester,Interstate,113086546,109,0.7,1
+2017,Rochester,Local,286930560,7135,0.3,0.5
+2017,Rochester,Major Collector,363840639,1511,0.5,0.7
+2017,Rochester,Minor Arterial,560042556,872,0.5,0.7
+2017,Rochester,Minor Collector,94887676,905,0.5,0.7
+2017,Rochester,Principal Arterial,436320617,371,0.7,1
+2017,St. Cloud,Interstate,669987136,231,0.7,1
+2017,St. Cloud,Local,268496603,5653,0.3,0.5
+2017,St. Cloud,Major Collector,325163592,1112,0.5,0.7
+2017,St. Cloud,Minor Arterial,386141481,458,0.5,0.7
+2017,St. Cloud,Minor Collector,96101748,780,0.5,0.7
+2017,St. Cloud,Principal Arterial,729424695,485,0.7,1
+2018,Duluth,Interstate,244494664,127,0.7,1
+2018,Duluth,Local,41521587,1468,0.3,0.5
+2018,Duluth,Major Collector,91758474,416,0.5,0.7
+2018,Duluth,Minor Arterial,58334019,129,0.5,0.7
+2018,Duluth,Minor Collector,18834244,249,0.5,0.7
+2018,Duluth,Principal Arterial,60665145,81,0.7,1
+2018,Mankato-North Mankato,Freeway/Expressway,93542349,42,0.7,1
+2018,Mankato-North Mankato,Local,107594222,3265,0.3,0.5
+2018,Mankato-North Mankato,Major Collector,158639520,813,0.5,0.7
+2018,Mankato-North Mankato,Minor Arterial,248429504,376,0.5,0.7
+2018,Mankato-North Mankato,Minor Collector,64211810,612,0.5,0.7
+2018,Mankato-North Mankato,Principal Arterial,395328120,338,0.7,1
+2018,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,4054783680,734,0.7,1
+2018,Minneapolis-St. Paul-Bloomington,Interstate,9020169395,1578,0.7,1
+2018,Minneapolis-St. Paul-Bloomington,Local,4070485862,35263,0.3,0.5
+2018,Minneapolis-St. Paul-Bloomington,Major Collector,2600998269,5415,0.5,0.7
+2018,Minneapolis-St. Paul-Bloomington,Minor Arterial,9208242991,7663,0.5,0.7
+2018,Minneapolis-St. Paul-Bloomington,Minor Collector,374823454,2504,0.5,0.7
+2018,Minneapolis-St. Paul-Bloomington,Principal Arterial,4153141141,1770,0.7,1
+2018,Rochester,Freeway/Expressway,370367647,111,0.7,1
+2018,Rochester,Interstate,111881188,109,0.7,1
+2018,Rochester,Local,295205107,7145,0.3,0.5
+2018,Rochester,Major Collector,383641553,1507,0.5,0.7
+2018,Rochester,Minor Arterial,576228725,872,0.5,0.7
+2018,Rochester,Minor Collector,98378596,907,0.5,0.7
+2018,Rochester,Principal Arterial,438943220,371,0.7,1
+2018,St. Cloud,Interstate,667103218,231,0.7,1
+2018,St. Cloud,Local,271097241,5650,0.3,0.5
+2018,St. Cloud,Major Collector,325115909,1109,0.5,0.7
+2018,St. Cloud,Minor Arterial,388276553,461,0.5,0.7
+2018,St. Cloud,Minor Collector,98026301,780,0.5,0.7
+2018,St. Cloud,Principal Arterial,735412364,488,0.7,1
+2019,Duluth,Interstate,246428171,127,0.7,1
+2019,Duluth,Local,42576650,1574,0.3,0.5
+2019,Duluth,Major Collector,91947708,416,0.5,0.7
+2019,Duluth,Minor Arterial,58785348,128,0.5,0.7
+2019,Duluth,Minor Collector,18860226,249,0.5,0.7
+2019,Duluth,Principal Arterial,61300502,81,0.7,1
+2019,Mankato-North Mankato,Freeway/Expressway,96674086,42,0.7,1
+2019,Mankato-North Mankato,Local,111510018,3340,0.3,0.5
+2019,Mankato-North Mankato,Major Collector,160493674,815,0.5,0.7
+2019,Mankato-North Mankato,Minor Arterial,249863488,379,0.5,0.7
+2019,Mankato-North Mankato,Minor Collector,62899958,615,0.5,0.7
+2019,Mankato-North Mankato,Principal Arterial,416615280,338,0.7,1
+2019,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,4069154982,733,0.7,1
+2019,Minneapolis-St. Paul-Bloomington,Interstate,8940961587,1578,0.7,1
+2019,Minneapolis-St. Paul-Bloomington,Local,4150918357,36953,0.3,0.5
+2019,Minneapolis-St. Paul-Bloomington,Major Collector,2628193905,5381,0.5,0.7
+2019,Minneapolis-St. Paul-Bloomington,Minor Arterial,9262681660,7699,0.5,0.7
+2019,Minneapolis-St. Paul-Bloomington,Minor Collector,376379074,2503,0.5,0.7
+2019,Minneapolis-St. Paul-Bloomington,Principal Arterial,4158138393,1776,0.7,1
+2019,Rochester,Freeway/Expressway,362580894,111,0.7,1
+2019,Rochester,Interstate,111444759,109,0.7,1
+2019,Rochester,Local,298294431,7196,0.3,0.5
+2019,Rochester,Major Collector,384801023,1514,0.5,0.7
+2019,Rochester,Minor Arterial,579836606,875,0.5,0.7
+2019,Rochester,Minor Collector,98631445,906,0.5,0.7
+2019,Rochester,Principal Arterial,450336693,371,0.7,1
+2019,St. Cloud,Interstate,645831808,231,0.7,1
+2019,St. Cloud,Local,272832175,5694,0.3,0.5
+2019,St. Cloud,Major Collector,328842125,1109,0.5,0.7
+2019,St. Cloud,Minor Arterial,395096482,471,0.5,0.7
+2019,St. Cloud,Minor Collector,98810521,783,0.5,0.7
+2019,St. Cloud,Principal Arterial,742970508,487,0.7,1
+2020,Duluth,Interstate,200152213,127,0.7,1
+2020,Duluth,Local,39480774,1576,0.3,0.5
+2020,Duluth,Major Collector,80686029,416,0.5,0.7
+2020,Duluth,Minor Arterial,49536352,128,0.5,0.7
+2020,Duluth,Minor Collector,18211290,249,0.5,0.7
+2020,Duluth,Principal Arterial,53283228,81,0.7,1
+2020,Mankato-North Mankato,Freeway/Expressway,79645218,42,0.7,1
+2020,Mankato-North Mankato,Local,108342194,3393,0.3,0.5
+2020,Mankato-North Mankato,Major Collector,134702624,815,0.5,0.7
+2020,Mankato-North Mankato,Minor Arterial,206324896,379,0.5,0.7
+2020,Mankato-North Mankato,Minor Collector,55721972,615,0.5,0.7
+2020,Mankato-North Mankato,Principal Arterial,360207657,338,0.7,1
+2020,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,3320900214,733,0.7,1
+2020,Minneapolis-St. Paul-Bloomington,Interstate,7383225361,1578,0.7,1
+2020,Minneapolis-St. Paul-Bloomington,Local,3819631621,37288,0.3,0.5
+2020,Minneapolis-St. Paul-Bloomington,Major Collector,2100108581,5375,0.5,0.7
+2020,Minneapolis-St. Paul-Bloomington,Minor Arterial,7195051244,7698,0.5,0.7
+2020,Minneapolis-St. Paul-Bloomington,Minor Collector,332549155,2506,0.5,0.7
+2020,Minneapolis-St. Paul-Bloomington,Principal Arterial,3608972216,1775,0.7,1
+2020,Rochester,Freeway/Expressway,306823181,111,0.7,1
+2020,Rochester,Interstate,95090582,109,0.7,1
+2020,Rochester,Local,287301639,7238,0.3,0.5
+2020,Rochester,Major Collector,323054106,1515,0.5,0.7
+2020,Rochester,Minor Arterial,480723089,883,0.5,0.7
+2020,Rochester,Minor Collector,87336834,906,0.5,0.7
+2020,Rochester,Principal Arterial,390840717,371,0.7,1
+2020,St. Cloud,Interstate,521706724,231,0.7,1
+2020,St. Cloud,Local,263807572,5705,0.3,0.5
+2020,St. Cloud,Major Collector,277066516,1109,0.5,0.7
+2020,St. Cloud,Minor Arterial,322230702,474,0.5,0.7
+2020,St. Cloud,Minor Collector,89547606,784,0.5,0.7
+2020,St. Cloud,Principal Arterial,643590914,487,0.7,1
+2021,Duluth,Interstate,230094772,127,0.7,1
+2021,Duluth,Local,40673200,1580,0.3,0.5
+2021,Duluth,Major Collector,92725573,416,0.5,0.7
+2021,Duluth,Minor Arterial,55017197,128,0.5,0.7
+2021,Duluth,Minor Collector,20180799,249,0.5,0.7
+2021,Duluth,Principal Arterial,59322522,81,0.7,1
+2021,Mankato-North Mankato,Freeway/Expressway,88281125,42,0.7,1
+2021,Mankato-North Mankato,Local,113529604,3417,0.3,0.5
+2021,Mankato-North Mankato,Major Collector,154876509,815,0.5,0.7
+2021,Mankato-North Mankato,Minor Arterial,231030831,379,0.5,0.7
+2021,Mankato-North Mankato,Minor Collector,60307911,612,0.5,0.7
+2021,Mankato-North Mankato,Principal Arterial,402202934,338,0.7,1
+2021,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,3660529492,733,0.7,1
+2021,Minneapolis-St. Paul-Bloomington,Interstate,8231153186,1577,0.7,1
+2021,Minneapolis-St. Paul-Bloomington,Local,3182821929,35440,0.3,0.5
+2021,Minneapolis-St. Paul-Bloomington,Major Collector,2782347189,5939,0.5,0.7
+2021,Minneapolis-St. Paul-Bloomington,Minor Arterial,7982743115,7390,0.5,0.7
+2021,Minneapolis-St. Paul-Bloomington,Minor Collector,827102279,4435,0.5,0.7
+2021,Minneapolis-St. Paul-Bloomington,Principal Arterial,4162009772,1815,0.7,1
+2021,Rochester,Freeway/Expressway,330275937,111,0.7,1
+2021,Rochester,Interstate,110002327,109,0.7,1
+2021,Rochester,Local,292475541,7285,0.3,0.5
+2021,Rochester,Major Collector,370151040,1519,0.5,0.7
+2021,Rochester,Minor Arterial,536069523,885,0.5,0.7
+2021,Rochester,Minor Collector,91604920,901,0.5,0.7
+2021,Rochester,Principal Arterial,450065660,402,0.7,1
+2021,St. Cloud,Interstate,604644308,231,0.7,1
+2021,St. Cloud,Local,268952381,5818,0.3,0.5
+2021,St. Cloud,Major Collector,312377278,1109,0.5,0.7
+2021,St. Cloud,Minor Arterial,357175834,474,0.5,0.7
+2021,St. Cloud,Minor Collector,94497600,784,0.5,0.7
+2021,St. Cloud,Principal Arterial,725551943,487,0.7,1
+2022,Duluth,Interstate,234931304,127,0.7,1
+2022,Duluth,Local,41817212,1577,0.3,0.5
+2022,Duluth,Major Collector,91823024,416,0.5,0.7
+2022,Duluth,Minor Arterial,54355005,128,0.5,0.7
+2022,Duluth,Minor Collector,20122274,249,0.5,0.7
+2022,Duluth,Principal Arterial,59490892,81,0.7,1
+2022,Mankato-North Mankato,Freeway/Expressway,97800377,42,0.7,1
+2022,Mankato-North Mankato,Local,113901028,3429,0.3,0.5
+2022,Mankato-North Mankato,Major Collector,157202062,816,0.5,0.7
+2022,Mankato-North Mankato,Minor Arterial,237813939,379,0.5,0.7
+2022,Mankato-North Mankato,Minor Collector,71102199,613,0.5,0.7
+2022,Mankato-North Mankato,Principal Arterial,396894678,337,0.7,1
+2022,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,3731980581,731,0.7,1
+2022,Minneapolis-St. Paul-Bloomington,Interstate,8476861903,1577,0.7,1
+2022,Minneapolis-St. Paul-Bloomington,Local,3215521534,35742,0.3,0.5
+2022,Minneapolis-St. Paul-Bloomington,Major Collector,2852254802,5937,0.5,0.7
+2022,Minneapolis-St. Paul-Bloomington,Minor Arterial,8258440263,7391,0.5,0.7
+2022,Minneapolis-St. Paul-Bloomington,Minor Collector,864329542,4431,0.5,0.7
+2022,Minneapolis-St. Paul-Bloomington,Principal Arterial,4029699280,1826,0.7,1
+2022,Rochester,Freeway/Expressway,330812668,111,0.7,1
+2022,Rochester,Interstate,109356120,109,0.7,1
+2022,Rochester,Local,291707426,7309,0.3,0.5
+2022,Rochester,Major Collector,369575839,1535,0.5,0.7
+2022,Rochester,Minor Arterial,526407140,885,0.5,0.7
+2022,Rochester,Minor Collector,94160458,897,0.5,0.7
+2022,Rochester,Principal Arterial,428267723,386,0.7,1
+2022,St. Cloud,Interstate,603519646,231,0.7,1
+2022,St. Cloud,Local,269431526,5835,0.3,0.5
+2022,St. Cloud,Major Collector,310796542,1108,0.5,0.7
+2022,St. Cloud,Minor Arterial,357063694,475,0.5,0.7
+2022,St. Cloud,Minor Collector,102874104,784,0.5,0.7
+2022,St. Cloud,Principal Arterial,705694136,488,0.7,1
+2023,Duluth,Interstate,242669233,127,0.7,1
+2023,Duluth,Local,41788866,1561,0.3,0.5
+2023,Duluth,Major Collector,90186776,416,0.5,0.7
+2023,Duluth,Minor Arterial,53022593,128,0.5,0.7
+2023,Duluth,Minor Collector,19593431,249,0.5,0.7
+2023,Duluth,Principal Arterial,60128740,81,0.7,1
+2023,Mankato-North Mankato,Freeway/Expressway,100434322,42,0.7,1
+2023,Mankato-North Mankato,Local,114326829,3417,0.3,0.5
+2023,Mankato-North Mankato,Major Collector,159327503,818,0.5,0.7
+2023,Mankato-North Mankato,Minor Arterial,242127837,378,0.5,0.7
+2023,Mankato-North Mankato,Minor Collector,69327258,613,0.5,0.7
+2023,Mankato-North Mankato,Principal Arterial,416061863,358,0.7,1
+2023,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,3857373913,735,0.7,1
+2023,Minneapolis-St. Paul-Bloomington,Interstate,8800429456,1596,0.7,1
+2023,Minneapolis-St. Paul-Bloomington,Local,3285654985,35896,0.3,0.5
+2023,Minneapolis-St. Paul-Bloomington,Major Collector,2858422399,5937,0.5,0.7
+2023,Minneapolis-St. Paul-Bloomington,Minor Arterial,8268096448,7412,0.5,0.7
+2023,Minneapolis-St. Paul-Bloomington,Minor Collector,884124983,4429,0.5,0.7
+2023,Minneapolis-St. Paul-Bloomington,Principal Arterial,3987782886,1812,0.7,1
+2023,Rochester,Freeway/Expressway,371940814,144,0.7,1
+2023,Rochester,Interstate,112741509,109,0.7,1
+2023,Rochester,Local,296460843,7286,0.3,0.5
+2023,Rochester,Major Collector,368478810,1535,0.5,0.7
+2023,Rochester,Minor Arterial,523278299,885,0.5,0.7
+2023,Rochester,Minor Collector,92200360,897,0.5,0.7
+2023,Rochester,Principal Arterial,396565338,353,0.7,1
+2023,St. Cloud,Interstate,607419752,231,0.7,1
+2023,St. Cloud,Local,272539784,5840,0.3,0.5
+2023,St. Cloud,Major Collector,313574866,1111,0.5,0.7
+2023,St. Cloud,Minor Arterial,363757660,476,0.5,0.7
+2023,St. Cloud,Minor Collector,106778016,782,0.5,0.7
+2023,St. Cloud,Principal Arterial,708968656,505,0.7,1
+2024,Duluth,Interstate,239729634,127,0.7,1
+2024,Duluth,Local,42225854,1559,0.3,0.5
+2024,Duluth,Major Collector,89571949,416,0.5,0.7
+2024,Duluth,Minor Arterial,56573111,128,0.5,0.7
+2024,Duluth,Minor Collector,17985936,249,0.5,0.7
+2024,Duluth,Principal Arterial,54863472,81,0.7,1
+2024,Mankato-North Mankato,Freeway/Expressway,93132542,42,0.7,1
+2024,Mankato-North Mankato,Local,114327723,3411,0.3,0.5
+2024,Mankato-North Mankato,Major Collector,162662058,818,0.5,0.7
+2024,Mankato-North Mankato,Minor Arterial,247404701,378,0.5,0.7
+2024,Mankato-North Mankato,Minor Collector,69354973,613,0.5,0.7
+2024,Mankato-North Mankato,Principal Arterial,405407509,358,0.7,1
+2024,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,4093626783,777,0.7,1
+2024,Minneapolis-St. Paul-Bloomington,Interstate,8951441934,1596,0.7,1
+2024,Minneapolis-St. Paul-Bloomington,Local,3345666123,35986,0.3,0.5
+2024,Minneapolis-St. Paul-Bloomington,Major Collector,2958094126,5929,0.5,0.7
+2024,Minneapolis-St. Paul-Bloomington,Minor Arterial,8497944973,7410,0.5,0.7
+2024,Minneapolis-St. Paul-Bloomington,Minor Collector,920244812,4437,0.5,0.7
+2024,Minneapolis-St. Paul-Bloomington,Principal Arterial,3870230099,1770,0.7,1
+2024,Rochester,Freeway/Expressway,380074930,144,0.7,1
+2024,Rochester,Interstate,126382803,109,0.7,1
+2024,Rochester,Local,297379338,7287,0.3,0.5
+2024,Rochester,Major Collector,380197923,1535,0.5,0.7
+2024,Rochester,Minor Arterial,545203200,885,0.5,0.7
+2024,Rochester,Minor Collector,94278098,898,0.5,0.7
+2024,Rochester,Principal Arterial,393844116,353,0.7,1
+2024,St. Cloud,Interstate,576609445,231,0.7,1
+2024,St. Cloud,Local,271455892,5844,0.3,0.5
+2024,St. Cloud,Major Collector,321260752,1111,0.5,0.7
+2024,St. Cloud,Minor Arterial,375195249,476,0.5,0.7
+2024,St. Cloud,Minor Collector,107296453,782,0.5,0.7
+2024,St. Cloud,Principal Arterial,723841875,505,0.7,1
