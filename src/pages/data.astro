@@ -4,19 +4,11 @@ import Section from "../components/Section.astro";
 ---
 
 <style>
-  table {
-    border: 1px solid black;
-  }
+ 
   .indent {
   margin-left: 40px; /* Adjust the value to control the indentation */
   }
-  table caption {
-    font-weight: bold;
-    margin-bottom: 0.75em;
-    caption-side: top;
-    text-align: center;
-  }
-  img {
+    img {
     display: block;
     width: 70%;
     max-width: 500px;
@@ -47,19 +39,15 @@ import Section from "../components/Section.astro";
       commercial areas.
     </p>
     <p>
-      The data available for road center-line miles is broken down by urban and rural areas, however, there is no corresponding breakdown for vehicle-miles of travel (VMT).
-      Therefore, urban and rural data were combined by road category.  Lane mileage data is available, but
-      is not linked to VMT. To estimate lane-mileage the ratio of lane-miles to center-line miles for each road category is calculated for 
-      each metro area (using 2023 data). This provided us with a conversion factor to approximate the lane miles for each functional class. These are shown
-      in the table below and represent averages by metro area.
+      The data for vehicle-miles of travel (VMT) is not separated by urban and rural roads, therefore urban and rural data were combined by road category.  Lane mileage data is
+      available.
     </p>
     <p>
-      Road classifications available in the data are listed in the table. There are 87 counties in Minnesota and we combined these based on 
+      Road classifications available in the data are listed in the table. There are 87 counties in Minnesota. The calculator includes both county data and combined based on 
       metropolitan statistical areas (MSAs).  Some MSAs include counties in Wisconsin and North Dakota; these were not included in the MSA totals.
-      Most counties are not included as they are not part of an MSA.  Fargo, Grand Forks, and LaCrosse-Onalaska MSAs are not included as they contain only
-      one county in Minnesota.
+      Fargo, Grand Forks, and LaCrosse-Onalaska MSAs are not included as they contain only one county in Minnesota.
       
-      The combinations included are as follows:
+      The MSA combinations included are as follows:
       <div class="indent">
       
       <p><strong>Duluth:</strong> Carlton, St. Louis, Douglas</p>
@@ -71,8 +59,8 @@ import Section from "../components/Section.astro";
 
      
       <p>
-      Our first year of data is 2018 and we will update to the latest year
-      available. Caution should be used when analyzing data and interpreting
+      Our first year of data is 2014 and we will update to the latest year
+      available. Data for 2015 was not available. Caution should be used when analyzing data and interpreting
       results for 2020 and 2021 due to changes in travel patterns due to the
       COVID pandemic.
       </p>
@@ -95,62 +83,13 @@ import Section from "../components/Section.astro";
       change in VMT attributable to the expansion, despite the evidence for
       induced travel. The user of the calculator is thus able to assess
       whether estimates made in forecasts are reasonable.
-    </p>
-    
 
-<table>
-  <caption>Lane-mile conversions and elasticity estimates used in the calculator</caption>
-  <colgroup>
-    <col style="width: 26%" />
-    <col style="width: 24%" />
-    <col style="width: 14%" />
-  </colgroup>
-  <tr>
-    <th>Functional classifications</th>
-    <th>Factor to convert to lane miles</th>
-    <th>Elasticity range</th>
-  </tr>
-  <tr>
-    <td>Interstates</td>
-    <td>4 - 5.6</td>
-    <td>0.7 - 1.0</td>
-  </tr>
-  <tr>
-    <td>Principal Arterial - Other Freeways and Expressways</td>
-    <td>3.9 - 4.6</td>
-    <td>0.7 - 1.0</td>
-  </tr>
-  <tr>
-    <td>Principal arterials - Other</td>
-    <td>2.3 - 3.4</td>
-    <td>0.7 - 1.0</td>
-  </tr>
-  <tr>
-    <td>Minor arterials</td>
-    <td>2 - 2.6</td>
-    <td>0.5 - 0.7</td>
-  </tr>
-  <tr>
-    <td>Major collectors</td>
-    <td>2 - 2.1</td>
-    <td>0.5 - 0.7</td>
-  </tr>
-  <tr>
-    <td>Minor collectors</td>
-    <td>2</td>
-    <td>0.5 - 0.7</td>
-  </tr>
-  <tr>
-    <td>Local</td>
-    <td>2</td>
-    <td>0.3 - 0.5</td>
-  </tr>
-</table>
+
+    </p>
+    <br>
+    <br>
    
-  
-    
-  </Section>
-  <Section>
+
   <h2>Calculations</h2>
     <p>
       The elasticities shown above are used to determine how a change in
