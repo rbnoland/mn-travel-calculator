@@ -1,36 +1,4 @@
 year,metro,facilityType,vmt,laneMiles,minElast,maxElast
-2014,Duluth,Interstate,217947559,32,0.7,1
-2014,Duluth,Local,49393563,755,0.3,0.5
-2014,Duluth,Major Collector,88941548,207,0.5,0.7
-2014,Duluth,Minor Arterial,63796020,67,0.5,0.7
-2014,Duluth,Minor Collector,9281106,112,0.5,0.7
-2014,Duluth,Principal Arterial,59576176,35,0.7,1
-2014,Mankato-North Mankato,Freeway/Expressway,94297444,13,0.7,1
-2014,Mankato-North Mankato,Local,127224880,1662,0.3,0.5
-2014,Mankato-North Mankato,Major Collector,126322855,386,0.5,0.7
-2014,Mankato-North Mankato,Minor Arterial,222615435,179,0.5,0.7
-2014,Mankato-North Mankato,Minor Collector,35053734,268,0.5,0.7
-2014,Mankato-North Mankato,Principal Arterial,393963687,117,0.7,1
-2014,Minneapolis-St. Paul-Bloomington,Freeway/Expressway,3274298088,139,0.7,1
-2014,Minneapolis-St. Paul-Bloomington,Interstate,8734512401,289,0.7,1
-2014,Minneapolis-St. Paul-Bloomington,Local,3765729635,17598,0.3,0.5
-2014,Minneapolis-St. Paul-Bloomington,Major Collector,2642882562,2835,0.5,0.7
-2014,Minneapolis-St. Paul-Bloomington,Minor Arterial,8645690895,2954,0.5,0.7
-2014,Minneapolis-St. Paul-Bloomington,Minor Collector,237385177,1004,0.5,0.7
-2014,Minneapolis-St. Paul-Bloomington,Principal Arterial,4274530365,553,0.7,1
-2014,Rochester,Freeway/Expressway,193916481,11,0.7,1
-2014,Rochester,Interstate,112402626,27,0.7,1
-2014,Rochester,Local,276956207,3591,0.3,0.5
-2014,Rochester,Major Collector,278844563,715,0.5,0.7
-2014,Rochester,Minor Arterial,449391263,429,0.5,0.7
-2014,Rochester,Minor Collector,58807326,403,0.5,0.7
-2014,Rochester,Principal Arterial,726551798,178,0.7,1
-2014,St. Cloud,Interstate,634518059,58,0.7,1
-2014,St. Cloud,Local,243934437,2842,0.3,0.5
-2014,St. Cloud,Major Collector,298026957,549,0.5,0.7
-2014,St. Cloud,Minor Arterial,375863508,202,0.5,0.7
-2014,St. Cloud,Minor Collector,79637387,368,0.5,0.7
-2014,St. Cloud,Principal Arterial,698670686,166,0.7,1
 2016,Duluth,Interstate,232206467,127,0.7,1
 2016,Duluth,Local,41562760,1456,0.3,0.5
 2016,Duluth,Major Collector,87418931,417,0.5,0.7
