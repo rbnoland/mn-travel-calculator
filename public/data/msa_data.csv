@@ -287,3 +287,57 @@ year,metro,facilityType,vmt,laneMiles,minElast,maxElast
 2024,St. Cloud,Minor Arterial,375195249,476,0.5,0.7
 2024,St. Cloud,Minor Collector,107296453,782,0.5,0.7
 2024,St. Cloud,Principal Arterial,723841875,505,0.7,1
+2016,Mankato-North Mankato + Waseca County,Freeway/Expressway,143820893,123,0.7,1
+2016,Mankato-North Mankato + Waseca County,Local,134711655,4353,0.3,0.5
+2016,Mankato-North Mankato + Waseca County,Major Collector,191286340,1055,0.5,0.7
+2016,Mankato-North Mankato + Waseca County,Minor Arterial,306499718,541,0.5,0.7
+2016,Mankato-North Mankato + Waseca County,Minor Collector,68990328,815,0.5,0.7
+2016,Mankato-North Mankato + Waseca County,Principal Arterial,367596820,325,0.7,1
+2017,Mankato-North Mankato + Waseca County,Freeway/Expressway,118388542,81,0.7,1
+2017,Mankato-North Mankato + Waseca County,Local,134137192,4361,0.3,0.5
+2017,Mankato-North Mankato + Waseca County,Major Collector,188302582,1040,0.5,0.7
+2017,Mankato-North Mankato + Waseca County,Minor Arterial,309667369,542,0.5,0.7
+2017,Mankato-North Mankato + Waseca County,Minor Collector,76413519,828,0.5,0.7
+2017,Mankato-North Mankato + Waseca County,Principal Arterial,420836105,385,0.7,1
+2018,Mankato-North Mankato + Waseca County,Freeway/Expressway,121378185,81,0.7,1
+2018,Mankato-North Mankato + Waseca County,Local,134104007,4355,0.3,0.5
+2018,Mankato-North Mankato + Waseca County,Major Collector,193147635,1038,0.5,0.7
+2018,Mankato-North Mankato + Waseca County,Minor Arterial,316497222,549,0.5,0.7
+2018,Mankato-North Mankato + Waseca County,Minor Collector,77329264,825,0.5,0.7
+2018,Mankato-North Mankato + Waseca County,Principal Arterial,431781619,385,0.7,1
+2019,Mankato-North Mankato + Waseca County,Freeway/Expressway,126588606,81,0.7,1
+2019,Mankato-North Mankato + Waseca County,Local,138122303,4439,0.3,0.5
+2019,Mankato-North Mankato + Waseca County,Major Collector,195065705,1040,0.5,0.7
+2019,Mankato-North Mankato + Waseca County,Minor Arterial,318084279,552,0.5,0.7
+2019,Mankato-North Mankato + Waseca County,Minor Collector,76077645,828,0.5,0.7
+2019,Mankato-North Mankato + Waseca County,Principal Arterial,453130251,385,0.7,1
+2020,Mankato-North Mankato + Waseca County,Freeway/Expressway,103307928,81,0.7,1
+2020,Mankato-North Mankato + Waseca County,Local,133818592,4508,0.3,0.5
+2020,Mankato-North Mankato + Waseca County,Major Collector,164389685,1040,0.5,0.7
+2020,Mankato-North Mankato + Waseca County,Minor Arterial,266438719,552,0.5,0.7
+2020,Mankato-North Mankato + Waseca County,Minor Collector,67659699,828,0.5,0.7
+2020,Mankato-North Mankato + Waseca County,Principal Arterial,392014613,385,0.7,1
+2021,Mankato-North Mankato + Waseca County,Freeway/Expressway,114523513,81,0.7,1
+2021,Mankato-North Mankato + Waseca County,Local,139544079,4532,0.3,0.5
+2021,Mankato-North Mankato + Waseca County,Major Collector,187172493,1040,0.5,0.7
+2021,Mankato-North Mankato + Waseca County,Minor Arterial,293430104,552,0.5,0.7
+2021,Mankato-North Mankato + Waseca County,Minor Collector,72264337,825,0.5,0.7
+2021,Mankato-North Mankato + Waseca County,Principal Arterial,438870133,385,0.7,1
+2022,Mankato-North Mankato + Waseca County,Freeway/Expressway,124323910,81,0.7,1
+2022,Mankato-North Mankato + Waseca County,Local,139943174,4544,0.3,0.5
+2022,Mankato-North Mankato + Waseca County,Major Collector,189075651,1041,0.5,0.7
+2022,Mankato-North Mankato + Waseca County,Minor Arterial,300116587,552,0.5,0.7
+2022,Mankato-North Mankato + Waseca County,Minor Collector,84003085,826,0.5,0.7
+2022,Mankato-North Mankato + Waseca County,Principal Arterial,436525504,384,0.7,1
+2023,Mankato-North Mankato + Waseca County,Freeway/Expressway,132842640,81,0.7,1
+2023,Mankato-North Mankato + Waseca County,Local,140282727,4530,0.3,0.5
+2023,Mankato-North Mankato + Waseca County,Major Collector,193897921,1043,0.5,0.7
+2023,Mankato-North Mankato + Waseca County,Minor Arterial,310058517,550,0.5,0.7
+2023,Mankato-North Mankato + Waseca County,Minor Collector,81783535,826,0.5,0.7
+2023,Mankato-North Mankato + Waseca County,Principal Arterial,455583177,405,0.7,1
+2024,Mankato-North Mankato + Waseca County,Freeway/Expressway,125890026,81,0.7,1
+2024,Mankato-North Mankato + Waseca County,Local,140242899,4520,0.3,0.5
+2024,Mankato-North Mankato + Waseca County,Major Collector,197111172,1043,0.5,0.7
+2024,Mankato-North Mankato + Waseca County,Minor Arterial,316174993,550,0.5,0.7
+2024,Mankato-North Mankato + Waseca County,Minor Collector,82101914,826,0.5,0.7
+2024,Mankato-North Mankato + Waseca County,Principal Arterial,445565793,405,0.7,1
