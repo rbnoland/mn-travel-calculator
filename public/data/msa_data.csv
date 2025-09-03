@@ -341,3 +341,57 @@ year,metro,facilityType,vmt,laneMiles,minElast,maxElast
 2024,Mankato-North Mankato + Waseca County,Minor Arterial,316174993,550,0.5,0.7
 2024,Mankato-North Mankato + Waseca County,Minor Collector,82101914,826,0.5,0.7
 2024,Mankato-North Mankato + Waseca County,Principal Arterial,445565793,405,0.7,1
+2016,Duluth,All major freeways/arterials,294182284,209,0.7,1
+2016,Mankato-North Mankato,All major freeways/arterials,451350981,362,0.7,1
+2016,Mankato-North Mankato + Waseca County,All major freeways/arterials,511417713,448,0.7,1
+2016,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,16925366728,4049,0.7,1
+2016,Rochester,All major freeways/arterials,862624451,584,0.7,1
+2016,St. Cloud,All major freeways/arterials,1317552205,734,0.7,1
+2017,Duluth,All major freeways/arterials,294852332,208,0.7,1
+2017,Mankato-North Mankato,All major freeways/arterials,479648786,380,0.7,1
+2017,Mankato-North Mankato + Waseca County,All major freeways/arterials,539224647,466,0.7,1
+2017,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,17223591669,4063,0.7,1
+2017,Rochester,All major freeways/arterials,892529827,591,0.7,1
+2017,St. Cloud,All major freeways/arterials,1399411831,716,0.7,1
+2018,Duluth,All major freeways/arterials,305159809,208,0.7,1
+2018,Mankato-North Mankato,All major freeways/arterials,488870469,380,0.7,1
+2018,Mankato-North Mankato + Waseca County,All major freeways/arterials,553159804,466,0.7,1
+2018,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,17228094216,4082,0.7,1
+2018,Rochester,All major freeways/arterials,921192055,591,0.7,1
+2018,St. Cloud,All major freeways/arterials,1402515582,719,0.7,1
+2019,Duluth,All major freeways/arterials,307728673,208,0.7,1
+2019,Mankato-North Mankato,All major freeways/arterials,513289366,380,0.7,1
+2019,Mankato-North Mankato + Waseca County,All major freeways/arterials,579718857,466,0.7,1
+2019,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,17168254962,4087,0.7,1
+2019,Rochester,All major freeways/arterials,924362346,591,0.7,1
+2019,St. Cloud,All major freeways/arterials,1388802316,718,0.7,1
+2020,Duluth,All major freeways/arterials,253435441,208,0.7,1
+2020,Mankato-North Mankato,All major freeways/arterials,439852875,380,0.7,1
+2020,Mankato-North Mankato + Waseca County,All major freeways/arterials,495322541,466,0.7,1
+2020,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,14313097791,4086,0.7,1
+2020,Rochester,All major freeways/arterials,792754480,591,0.7,1
+2020,St. Cloud,All major freeways/arterials,1165297638,718,0.7,1
+2021,Duluth,All major freeways/arterials,289417294,208,0.7,1
+2021,Mankato-North Mankato,All major freeways/arterials,490484059,380,0.7,1
+2021,Mankato-North Mankato + Waseca County,All major freeways/arterials,553393646,466,0.7,1
+2021,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,16053692450,4125,0.7,1
+2021,Rochester,All major freeways/arterials,890343924,622,0.7,1
+2021,St. Cloud,All major freeways/arterials,1330196251,718,0.7,1
+2022,Duluth,All major freeways/arterials,294422196,208,0.7,1
+2022,Mankato-North Mankato,All major freeways/arterials,494695055,379,0.7,1
+2022,Mankato-North Mankato + Waseca County,All major freeways/arterials,560849414,465,0.7,1
+2022,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,16238541764,4134,0.7,1
+2022,Rochester,All major freeways/arterials,868436511,606,0.7,1
+2022,St. Cloud,All major freeways/arterials,1309213782,719,0.7,1
+2023,Duluth,All major freeways/arterials,302797973,208,0.7,1
+2023,Mankato-North Mankato,All major freeways/arterials,516496185,400,0.7,1
+2023,Mankato-North Mankato + Waseca County,All major freeways/arterials,588425817,486,0.7,1
+2023,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,16645586255,4143,0.7,1
+2023,Rochester,All major freeways/arterials,881247661,606,0.7,1
+2023,St. Cloud,All major freeways/arterials,1316388408,736,0.7,1
+2024,Duluth,All major freeways/arterials,294593106,208,0.7,1
+2024,Mankato-North Mankato,All major freeways/arterials,498540051,400,0.7,1
+2024,Mankato-North Mankato + Waseca County,All major freeways/arterials,571455819,486,0.7,1
+2024,Minneapolis-St. Paul-Bloomington,All major freeways/arterials,16915298816,4143,0.7,1
+2024,Rochester,All major freeways/arterials,900301849,606,0.7,1
+2024,St. Cloud,All major freeways/arterials,1300451320,736,0.7,1
